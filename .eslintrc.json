@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "standard"
+    ],
+    "rules": {
+        "prettier/prettier": "warn",
+        "no-unused-vars": "warn",
+        "indent": ["warn", 4],
+        "quotes": ["warn"],
+        "space-before-function-paren": "warn",
+        "eol-last": "warn",
+        "max-len": [
+            "warn",
+            {
+                "code": 100,
+                "ignoreStrings": true
+            }
+        ]
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "files": ["tests/**/*"]
+}
